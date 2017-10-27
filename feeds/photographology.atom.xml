@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life</title><link href="/" rel="alternate"></link><link href="/feeds/photographology.atom.xml" rel="self"></link><id>/</id><updated>2012-04-18T13:57:00-07:00</updated><entry><title>On Lightfield photography and Lytro</title><link href="/on-lightfield-photography-and-lytro.html" rel="alternate"></link><published>2012-04-18T13:57:00-07:00</published><updated>2012-04-18T13:57:00-07:00</updated><author><name>Daniel</name></author><id>tag:,2012-04-18:on-lightfield-photography-and-lytro.html</id><summary type="html">&lt;p&gt;Benjamin Warde commenting on Lytro:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life - photographology</title><link href="/" rel="alternate"></link><link href="/feeds/photographology.atom.xml" rel="self"></link><id>/</id><updated>2012-04-18T13:57:00-07:00</updated><entry><title>On Lightfield photography and Lytro</title><link href="/on-lightfield-photography-and-lytro.html" rel="alternate"></link><published>2012-04-18T13:57:00-07:00</published><updated>2012-04-18T13:57:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2012-04-18:/on-lightfield-photography-and-lytro.html</id><summary type="html">&lt;p&gt;Benjamin Warde commenting on Lytro:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Viewers will find clicking on photos to refocus them to be fun for
+exactly 17 seconds, after which theyll be bored, not to mention
+annoyed that theyre being made to do work the photographer should
+have done already.  As for the folks behind the camera …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Benjamin Warde commenting on Lytro:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Viewers will find clicking on photos to refocus them to be fun for
 exactly 17 seconds, after which theyll be bored, not to mention
@@ -21,10 +26,17 @@ behind the Lytro camera, but I had never thought of letting the
 viewer be the one to set focus. I had envisioned it to enable more
 creative control in post-production. I canceled my Lytro order without
 a solid reason why, but this article put into words what I had felt.&lt;/p&gt;
-</summary><category term="lytro"></category><category term="technology"></category></entry><entry><title>Every World Press Photo Winner From 1955-2011</title><link href="/every-world-press-photo-winner-from-1955-2011.html" rel="alternate"></link><published>2012-02-23T21:03:00-08:00</published><updated>2012-02-23T21:03:00-08:00</updated><author><name>Daniel</name></author><id>tag:,2012-02-23:every-world-press-photo-winner-from-1955-2011.html</id><summary type="html">&lt;p&gt;There are some *incredible* photos that tell amazing stories
+</content><category term="lytro"></category><category term="technology"></category></entry><entry><title>Every World Press Photo Winner From 1955-2011</title><link href="/every-world-press-photo-winner-from-1955-2011.html" rel="alternate"></link><published>2012-02-23T21:03:00-08:00</published><updated>2012-02-23T21:03:00-08:00</updated><author><name>Daniel</name></author><id>tag:None,2012-02-23:/every-world-press-photo-winner-from-1955-2011.html</id><summary type="html">&lt;p&gt;There are some *incredible* photos that tell amazing stories
 here: &lt;a class="reference external" href="http://www.buzzfeed.com/mjs538/every-world-press-photo-winner-from-1955-2011"&gt;Every World Press Photo Winner From
 1955-2011&lt;/a&gt;.&lt;/p&gt;
-</summary><category term="photography"></category></entry><entry><title>Exploring HDR processing of a single RAW image</title><link href="/exploring-hdr-processing-of-a-single-raw-image.html" rel="alternate"></link><published>2011-10-23T17:53:00-07:00</published><updated>2011-10-23T17:53:00-07:00</updated><author><name>Daniel</name></author><id>tag:,2011-10-23:exploring-hdr-processing-of-a-single-raw-image.html</id><summary type="html">&lt;p&gt;You don't have to research HDR much to find the common questions about
+</summary><content type="html">&lt;p&gt;There are some *incredible* photos that tell amazing stories
+here: &lt;a class="reference external" href="http://www.buzzfeed.com/mjs538/every-world-press-photo-winner-from-1955-2011"&gt;Every World Press Photo Winner From
+1955-2011&lt;/a&gt;.&lt;/p&gt;
+</content><category term="photography"></category></entry><entry><title>Exploring HDR processing of a single RAW image</title><link href="/exploring-hdr-processing-of-a-single-raw-image.html" rel="alternate"></link><published>2011-10-23T17:53:00-07:00</published><updated>2011-10-23T17:53:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2011-10-23:/exploring-hdr-processing-of-a-single-raw-image.html</id><summary type="html">&lt;p&gt;You don't have to research HDR much to find the common questions about
+how best to process a single image into an HDR. Some people suggest
+taking the photo and running it straight through Photomatix, letting it
+do all the legwork. Others suggest taking the image into something like
+Lightroom …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You don't have to research HDR much to find the common questions about
 how best to process a single image into an HDR. Some people suggest
 taking the photo and running it straight through Photomatix, letting it
 do all the legwork. Others suggest taking the image into something like
@@ -173,7 +185,11 @@ applications using their standard import methods.&lt;/p&gt;
 exporting exposure bracketed versions of a single exposure when using
 Photomatix to tonemap a single image. Science, logic and truth prevail,
 revealing to everybody the Golden Gate Bridge.&lt;/p&gt;
-</summary><category term="analysis"></category><category term="journal"></category><category term="lightroom"></category><category term="photography"></category><category term="photomatix"></category><category term="photoshop"></category><category term="experiment"></category><category term="raw"></category></entry><entry><title>Rethinking Photography in 2011</title><link href="/rethinking-photography-in-2011.html" rel="alternate"></link><published>2011-04-26T16:24:00-07:00</published><updated>2011-04-26T16:24:00-07:00</updated><author><name>Daniel</name></author><id>tag:,2011-04-26:rethinking-photography-in-2011.html</id><summary type="html">&lt;p&gt;Yesterday some mixed feelings and vague thoughts I've been having for a
+</content><category term="analysis"></category><category term="journal"></category><category term="lightroom"></category><category term="photography"></category><category term="photomatix"></category><category term="photoshop"></category><category term="experiment"></category><category term="raw"></category></entry><entry><title>Rethinking Photography in 2011</title><link href="/rethinking-photography-in-2011.html" rel="alternate"></link><published>2011-04-26T16:24:00-07:00</published><updated>2011-04-26T16:24:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2011-04-26:/rethinking-photography-in-2011.html</id><summary type="html">&lt;p&gt;Yesterday some mixed feelings and vague thoughts I've been having for a
+long time culminated in the decision to sell all of my photography gear
+and start over from scratch.&lt;/p&gt;
+&lt;p&gt;I've been a hobbyist photographer for a long time, I got my first camera
+when I was about 7, but …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday some mixed feelings and vague thoughts I've been having for a
 long time culminated in the decision to sell all of my photography gear
 and start over from scratch.&lt;/p&gt;
 &lt;p&gt;I've been a hobbyist photographer for a long time, I got my first camera
@@ -234,14 +250,24 @@ one.&lt;/p&gt;
 have a serious hobby, but it's not a profession. Hobbies are supposed to
 be fun and enriching. With the failure of my attempted photography
 career, I think it's time to start over, so that's what I'm doing.&lt;/p&gt;
-</summary><category term="life"></category><category term="photography"></category><category term="technology"></category></entry><entry><title>Quick flickr tip about shutter actuation count</title><link href="/quick-flickr-tip-about-shutter-actuation-count.html" rel="alternate"></link><published>2010-11-14T20:16:00-08:00</published><updated>2010-11-14T20:16:00-08:00</updated><author><name>Daniel</name></author><id>tag:,2010-11-14:quick-flickr-tip-about-shutter-actuation-count.html</id><summary type="html">&lt;p&gt;If you want to see how many photos your camera has taken, take a photo
+</content><category term="life"></category><category term="photography"></category><category term="technology"></category></entry><entry><title>Quick flickr tip about shutter actuation count</title><link href="/quick-flickr-tip-about-shutter-actuation-count.html" rel="alternate"></link><published>2010-11-14T20:16:00-08:00</published><updated>2010-11-14T20:16:00-08:00</updated><author><name>Daniel</name></author><id>tag:None,2010-11-14:/quick-flickr-tip-about-shutter-actuation-count.html</id><summary type="html">&lt;p&gt;If you want to see how many photos your camera has taken, take a photo
+and upload it to Flickr, then look at the EXIF data.  The &amp;quot;Image Number&amp;quot;
+field is the number of shutter actuations of the camera body that took
+the photo.  This is a useful piece of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you want to see how many photos your camera has taken, take a photo
 and upload it to Flickr, then look at the EXIF data.  The &amp;quot;Image Number&amp;quot;
 field is the number of shutter actuations of the camera body that took
 the photo.  This is a useful piece of information when reselling a
 selling used gear, and generally neat to know if you take a lot of
 photos.  I'm adding a graph of actuations vs time to my to-do list for
 &lt;a class="reference external" href="http://www.flixplor.com"&gt;flixplor.com&lt;/a&gt;.&lt;/p&gt;
-</summary><category term="journal"></category><category term="exif"></category><category term="flickr"></category><category term="shutter actuations"></category><category term="tip"></category></entry><entry><title>Stereoscopy</title><link href="/stereoscopy.html" rel="alternate"></link><published>2009-08-30T13:25:00-07:00</published><updated>2009-08-30T13:25:00-07:00</updated><author><name>Daniel</name></author><id>tag:,2009-08-30:stereoscopy.html</id><summary type="html">&lt;address&gt;&lt;p&gt;3D photography is something I've been in and out of for a while.&lt;/p&gt;
+</content><category term="journal"></category><category term="exif"></category><category term="flickr"></category><category term="shutter actuations"></category><category term="tip"></category></entry><entry><title>Stereoscopy</title><link href="/stereoscopy.html" rel="alternate"></link><published>2009-08-30T13:25:00-07:00</published><updated>2009-08-30T13:25:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-08-30:/stereoscopy.html</id><summary type="html">&lt;address&gt;&lt;p&gt;3D photography is something I've been in and out of for a while.&lt;/p&gt;
+&lt;/address&gt;&lt;div class="section" id="glossary"&gt;
+&lt;h2&gt;Glossary&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;1/30th rule - The separation between the perspective of the two
+images should be 1/30th the distance to the nearest subject.&lt;/li&gt;
+&lt;li&gt;Cha-cha - A method of taking 3d photos where you use one camera to
+take …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;address&gt;&lt;p&gt;3D photography is something I've been in and out of for a while.&lt;/p&gt;
 &lt;/address&gt;&lt;div class="section" id="glossary"&gt;
 &lt;h2&gt;Glossary&lt;/h2&gt;
 &lt;ul class="simple"&gt;
@@ -322,4 +348,4 @@ that could be fun, but otherwise I'd seek out other methods for
 stereoscopy like the simple cha-cha method or picking up two cheap
 pocket cams or webcams.&lt;/p&gt;
 &lt;/div&gt;
-</summary></entry></feed>
+</content></entry></feed>
