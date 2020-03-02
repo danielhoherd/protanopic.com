@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life - blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2018-06-10T00:00:00-07:00</updated><entry><title>Farewell Yahoo! Messenger</title><link href="/farewell-yahoo-messenger.html" rel="alternate"></link><published>2018-06-10T00:00:00-07:00</published><updated>2018-06-10T00:00:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2018-06-10:/farewell-yahoo-messenger.html</id><summary type="html">&lt;p&gt;Farewell Yahoo Messenger.
-&lt;a class="reference external" href="https://techcrunch.com/2018/06/08/yahoo-messenger-is-shutting-down-on-july-17-redirects-users-to-group-messaging-app-squirrel/"&gt;Farewell Yahoo Messenger&lt;/a&gt;. I never liked Yahoo Messenger much, but it is where I met my wife Tien, so it's a bit sad to see that it is shutting down on July 17th, which is 3 days after our 9th VN (8th US) anniversary.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Farewell Yahoo Messenger.
-&lt;a class="reference external" href="https://techcrunch.com/2018/06/08/yahoo-messenger-is-shutting-down-on-july-17-redirects-users-to-group-messaging-app-squirrel/"&gt;Farewell Yahoo Messenger&lt;/a&gt;. I never liked Yahoo Messenger much, but it is where I met my wife Tien, so it's a bit sad to see that it is shutting down on July 17th, which is 3 days after our 9th VN (8th US) anniversary.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life - blog</title><link href="/" rel="alternate"></link><link href="/feeds/blog.atom.xml" rel="self"></link><id>/</id><updated>2018-06-10T00:00:00-07:00</updated><entry><title>Farewell Yahoo! Messenger</title><link href="/farewell-yahoo-messenger.html" rel="alternate"></link><published>2018-06-10T00:00:00-07:00</published><updated>2018-06-10T00:00:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2018-06-10:/farewell-yahoo-messenger.html</id><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://techcrunch.com/2018/06/08/yahoo-messenger-is-shutting-down-on-july-17-redirects-users-to-group-messaging-app-squirrel/"&gt;Farewell Yahoo Messenger&lt;/a&gt;. I never liked Yahoo Messenger much, but it is where I met my wife Tien, so it's a bit sad to see that it is shutting down on July 17th, which is 3 days after our 9th VN (8th US) anniversary.&lt;/p&gt;
 </content><category term="journal"></category><category term="life"></category><category term="california"></category></entry><entry><title>Update from normalcy SF</title><link href="/update-from-normalcy-San%20Francisco.html" rel="alternate"></link><published>2010-11-12T19:32:00-08:00</published><updated>2010-11-12T19:32:00-08:00</updated><author><name>Daniel</name></author><id>tag:None,2010-11-12:/update-from-normalcy-San Francisco.html</id><summary type="html">&lt;p&gt;Since I haven't been traveling, it's been a long time since I've
 actually written on my blog.  Right now I'm sitting on my front steps in
 Chinatown, SF, sipping on cognac and waiting for my wife to come home
@@ -92,12 +89,7 @@ and I do miss SE Asia and the warm weather.  On the cold days, I dream
 of floating in the Bai Sao waters where it was hard to find a spot cool
 enough to swim.  I look at those photos and wonder what on earth I'm
 doing in dark, cold San Francisco...&lt;/p&gt;
-</content><category term="journal"></category></entry><entry><title>One year and 4 days later</title><link href="/one-year-and-4-days-later.html" rel="alternate"></link><published>2010-06-18T01:07:00-07:00</published><updated>2010-06-18T01:07:00-07:00</updated><author><name>WarzauWynn</name></author><id>tag:None,2010-06-18:/one-year-and-4-days-later.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/people/warzauwynn/"&gt;WarzauWynn&lt;/a&gt; posted a
-photo:&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/warzauwynn/4710762265/"&gt;&lt;img alt="One year and 4 days later" src="https://farm5.static.flickr.com/4021/4710762265_7b8d810d1c.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;One year and four days after I asked Tien to marry me, Tien passed her
-visa interview and our dreams were allowed to continue becoming reality.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/people/warzauwynn/"&gt;WarzauWynn&lt;/a&gt; posted a
+</content><category term="journal"></category></entry><entry><title>One year and 4 days later</title><link href="/one-year-and-4-days-later.html" rel="alternate"></link><published>2010-06-18T01:07:00-07:00</published><updated>2010-06-18T01:07:00-07:00</updated><author><name>WarzauWynn</name></author><id>tag:None,2010-06-18:/one-year-and-4-days-later.html</id><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/people/warzauwynn/"&gt;WarzauWynn&lt;/a&gt; posted a
 photo:&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/warzauwynn/4710762265/"&gt;&lt;img alt="One year and 4 days later" src="https://farm5.static.flickr.com/4021/4710762265_7b8d810d1c.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;One year and four days after I asked Tien to marry me, Tien passed her
@@ -140,7 +132,7 @@ financial data and it was immediately attacked by a virus. I don't know
 all that happened, but I spent a few minutes back on my Mac doing some
 CLI-fu to delete all the .exe files that were now scattered around my
 USB drive.&lt;/p&gt;
-&lt;p&gt;Over lunch I explained to Tien exactly why a service than handles the
+&lt;p&gt;Over lunch I explained to Tien exactly why a service that handles the
 personal details of immigrants, including all personal details, should
 take extra care to keep their computers free of viruses. I explained
 that how an infected computer is &amp;quot;owned&amp;quot;, meaning the people controlling
@@ -8143,10 +8135,7 @@ awesome if you know how it works and know how to find the joys in it. I
 also think that it's easier to enjoy the South Bay when you are
 comfortable driving long distances to go to the places you know you will
 enjoy, and hence it will get better the more time you spend in the SFBA.&lt;/p&gt;
-</content><category term="journal"></category><category term="life"></category><category term="california"></category><category term="memories"></category><category term="usa"></category></entry><entry><title>Rebranding</title><link href="/rebranding.html" rel="alternate"></link><published>2009-05-13T14:24:00-07:00</published><updated>2009-05-13T14:24:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-13:/rebranding.html</id><summary type="html">&lt;p&gt;Today I am rebranding and redesigning my website.  In the near future
-this is where you can keep up with me and what’s happening in my
-probably to be mostly off the grid life as I backpack around SE Asia.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Today I am rebranding and redesigning my website.  In the near future
+</content><category term="journal"></category><category term="life"></category><category term="california"></category><category term="memories"></category><category term="usa"></category></entry><entry><title>Rebranding</title><link href="/rebranding.html" rel="alternate"></link><published>2009-05-13T14:24:00-07:00</published><updated>2009-05-13T14:24:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-13:/rebranding.html</id><content type="html">&lt;p&gt;Today I am rebranding and redesigning my website.  In the near future
 this is where you can keep up with me and what’s happening in my
 probably to be mostly off the grid life as I backpack around SE Asia.&lt;/p&gt;
 </content><category term="journal"></category><category term="life"></category><category term="technology"></category><category term="travel"></category><category term="california"></category><category term="informational"></category><category term="usa"></category></entry><entry><title>Tuesday in the Office</title><link href="/tuesday-in-the-office.html" rel="alternate"></link><published>2009-05-13T09:50:00-07:00</published><updated>2009-05-13T09:50:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-13:/tuesday-in-the-office.html</id><summary type="html">&lt;p&gt;I slept on Gecko and Brian's memory foam bed last night! It was
@@ -8230,11 +8219,7 @@ on July 30 and we're working out the details right now. I'll probably
 arrive early and meet up with My. Hopefully she can show me some cheap
 places to stay, or hook me up with a friend of hers or something. Maybe
 couchsurfing.com could help...&lt;/p&gt;
-</content><category term="journal"></category><category term="life"></category><category term="travel"></category><category term="california"></category><category term="usa"></category></entry><entry><title>Location Update: 2009.5.8</title><link href="/location-update-200958.html" rel="alternate"></link><published>2009-05-08T18:00:00-07:00</published><updated>2009-05-08T18:00:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-08:/location-update-200958.html</id><summary type="html">&lt;p&gt;Last night I crashed out on Rob's couch. He's out of town until Sunday
-and I'm staying at his place.&lt;/p&gt;
-&lt;p&gt;I may go to Angel Island tomorrow with Sara and her BF. Really though I
-ought to be moving my shizz out of Lauren's apartment. Meh, we'll see.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Last night I crashed out on Rob's couch. He's out of town until Sunday
+</content><category term="journal"></category><category term="life"></category><category term="travel"></category><category term="california"></category><category term="usa"></category></entry><entry><title>Location Update: 2009.5.8</title><link href="/location-update-200958.html" rel="alternate"></link><published>2009-05-08T18:00:00-07:00</published><updated>2009-05-08T18:00:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-08:/location-update-200958.html</id><content type="html">&lt;p&gt;Last night I crashed out on Rob's couch. He's out of town until Sunday
 and I'm staying at his place.&lt;/p&gt;
 &lt;p&gt;I may go to Angel Island tomorrow with Sara and her BF. Really though I
 ought to be moving my shizz out of Lauren's apartment. Meh, we'll see.&lt;/p&gt;
