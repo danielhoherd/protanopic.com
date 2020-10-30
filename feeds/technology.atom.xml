@@ -25,7 +25,7 @@ perfect win. The only thing I really miss is having a remote shell available
 from not my house and not my work. I'm sure if I ever need one I can easily
 spin up an EC2 or Digital Ocean instance to handle my needs better than my old
 VPS was.&lt;/p&gt;
-</content></entry><entry><title>This is not a phone. It’s a computer that makes phone calls.</title><link href="/this-is-not-a-phone.html" rel="alternate"></link><published>2016-11-25T10:31:50-08:00</published><updated>2016-11-25T10:31:50-08:00</updated><author><name>Daniel</name></author><id>tag:None,2016-11-25:/this-is-not-a-phone.html</id><summary type="html">&lt;p&gt;Bruce Schneier, addressing the House of Representatives’ Energy and
+</content><category term="technology"></category></entry><entry><title>This is not a phone. It’s a computer that makes phone calls.</title><link href="/this-is-not-a-phone.html" rel="alternate"></link><published>2016-11-25T10:31:50-08:00</published><updated>2016-11-25T10:31:50-08:00</updated><author><name>Daniel</name></author><id>tag:None,2016-11-25:/this-is-not-a-phone.html</id><summary type="html">&lt;p&gt;Bruce Schneier, addressing the House of Representatives’ Energy and
 Commerce Committee:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;As the chairman pointed out, there are now computers in everything.
@@ -47,7 +47,7 @@ this is what caused the DDoS attack we’re talking about.&lt;/p&gt;
 'everything' security.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;via &lt;a class="reference external" href="http://www.dailydot.com/layer8/bruce-schneier-internet-of-things/"&gt;Bruce Schneier: 'The internet era of fun and games is over'&lt;/a&gt;.&lt;/p&gt;
-</content><category term="technology"></category><category term="security"></category></entry><entry><title>Technological aspects of protanopic.com - 2009 edition</title><link href="/technological-aspects-of-protanopiccom.html" rel="alternate"></link><published>2009-05-14T15:13:00-07:00</published><updated>2009-05-14T15:13:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-14:/technological-aspects-of-protanopiccom.html</id><summary type="html">&lt;p&gt;The new site is coming along quickly due to the ease of installation
+</content><category term="technology"></category><category term="technology"></category><category term="security"></category></entry><entry><title>Technological aspects of protanopic.com - 2009 edition</title><link href="/technological-aspects-of-protanopiccom.html" rel="alternate"></link><published>2009-05-14T15:13:00-07:00</published><updated>2009-05-14T15:13:00-07:00</updated><author><name>Daniel</name></author><id>tag:None,2009-05-14:/technological-aspects-of-protanopiccom.html</id><summary type="html">&lt;p&gt;The new site is coming along quickly due to the ease of installation
 provided by Wordpress and the awesome extension and theme communities
 build around it. Open source software is so rad. :)&lt;/p&gt;
 &lt;p&gt;I just finished integrating Facebook into the commenting system (via the
@@ -67,4 +67,4 @@ and where I took photos. Does anybody know of something like that?&lt;/p&gt;
 &lt;p&gt;I already have the geotagging thing down with the photos via &lt;a class="reference external" href="http://www.flickr.com/photos/warzauwynn/map"&gt;my Flickr
 map&lt;/a&gt;, it's just a matter
 of integrating it with Wordpress.&lt;/p&gt;
-</content><category term="journal"></category><category term="photography"></category><category term="technology"></category><category term="flickr"></category><category term="wordpress"></category></entry></feed>
+</content><category term="technology"></category><category term="journal"></category><category term="photography"></category><category term="technology"></category><category term="flickr"></category><category term="wordpress"></category></entry></feed>
