@@ -71,6 +71,7 @@
             <ul>
                     <li><a href="./tag/technology.html">technology</a></li>
                     <li><a href="./tag/circleci.html">CircleCI</a></li>
+                    <li><a href="./tag/ssh.html">ssh</a></li>
                     <li><a href="./tag/journal.html">journal</a></li>
                     <li><a href="./tag/life.html">life</a></li>
                     <li><a href="./tag/california.html">california</a></li>
@@ -166,41 +167,40 @@
   	
     <div class="blogItem">
     
-      <h2><a href="./building-docker-images-without-exposing-private-ssh-keys.html">Building Docker Images Without Exposing Private SSH Keys</a></h2>
-      <h3>2020-12-03 18:12:40-0800</h3>
+      <h2><a href="./overriding-ssh-agent-for-git-commands.html">Overriding ssh-agent for git commands</a></h2>
+      <h3>2020-12-04 12:12:07-0800</h3>
       
-      <p>I've been fighting with getting a docker image built that has to pull from a private github repo, and after talking to CircleCI support I only had one more step to figure out, so I thought I'd share the important bits here.</p>
-<p>The main piece they provided was to enable a newer version of Docker, and set up experimental on the docker daemon. This includes some interesting info: the ability to <code>ssh remote-docker</code> where you have root access via sudo. Also interesting is that they have newer versions of docker available, but stick to older versions as default to preserve compatibility with existing builds.</p>
-<div class="highlight"><pre><span></span><code><span class="c">steps:</span>
-<span class="c">  - setup_remote_docker:</span>
-<span class="c">      version: 19.03.13</span>
-<span class="c">  - run: |</span>
-<span class="c">      ssh remote-docker \&lt;&lt;EOF</span>
-<span class="c">        sudo bash -c &#39;echo &quot;{\&quot;experimental\&quot;: true}&quot; &gt; /etc/docker/daemon.json&#39;</span>
-<span class="c">        sudo systemctl restart docker</span>
-<span class="c">      EOF</span>
-</code></pre></div>
-
-<p>Include this line in your Dockerfile</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># syntax = docker/dockerfile:1.0-experimental</span>
-</code></pre></div>
-
-<p>Then run:</p>
-<div class="highlight"><pre><span></span><code><span class="nv">DOCKER_BUILDKIT</span><span class="o">=</span><span class="m">1</span> docker build --progress<span class="o">=</span>plain --ssh<span class="o">=</span><span class="nv">github</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">ssh_private_key_location</span><span class="si">}</span><span class="s2">&quot;</span> …
-</code></pre></div>
-
-<p>This results in a docker image that does not include the private ssh key. I verified this by running <code>docker save</code> and grepping the tar file.</p>	
+      <p>When cloning git URLs with ssh, git reads your ssh-agent keys before reading any identities. This can become a problem when you have multiple identities loaded, and not all of them are authorized to access private repositories. This can cause commands like <code>git clone</code> and <code>yarn install</code> to fail when the unauthorized ssh key is accepted when logging in. This is complicated by the fact that you cannot remove keys from ssh-agent one at a time, you can only reset it entirely, or skip it by setting <code>SSH_AUTH_SOCK=''</code>..</p>
+<p>The best way to work around this is to run <code>export GIT_SSH_COMMAND='ssh -o IdentitiesOnly=yes -i path/to/authorized/id_ed25519'</code>. This will skip all keys that are loaded in the ssh-agent and go straight to the given identity file.</p>
+<p>The issue of having too many loaded identities also shows up in other scenarios, like when using vagrant, which loads keys, and you are connecting to a device that has a low <code>MaxAuthTries</code>, like <a href="https://danielhoherd.com/tech-notes/cradlepoint/">Cradlepoint</a> modems or <a href="https://libreelec.tv">LibreElec</a> devices, especially when you know you will need to enter a password. In these scenarios, you should specify <code>ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no</code>.</p>	
 
       
       <h3 class="blogMeta">By <a href="#">Daniel Hoherd</a>, Category: <a href="./category/blog.html">blog</a></h3>
 <h3 class="blogMeta">Tags: <span><a href="./tag/technology.html">technology</a> / </span>
 <span><a href="./tag/circleci.html">CircleCI</a> / </span>
+<span><a href="./tag/ssh.html">ssh</a> / </span>
 </h3>    
     </div><!-- end #blogItem -->
 	
         <div class="blogItem">
                 <h2>Other articles</h2>
         </div>
+        
+    
+    <div class="blogItem">
+    
+      <h2><a href="./building-docker-images-without-exposing-private-ssh-keys.html">Building Docker Images Without Exposing Private SSH Keys</a></h2>
+      <h3>2020-12-03 18:12:40-0800</h3>
+      
+      <p>I've been fighting with getting a docker image built that has to pull from a private github repo, and after talking to CircleCI support I only had one more step to figure out, so I thought I'd share the important bits here.</p>
+<p>The main piece they provided was to enable …</p>	
+<h3 class="blogMeta">By <a href="#">Daniel Hoherd</a>, Category: <a href="./category/blog.html">blog</a></h3>
+	<a href="./building-docker-images-without-exposing-private-ssh-keys.html">Continue reading …</a>
+      
+      
+	
+    
+    </div><!-- end #blogItem -->
         
     
     <div class="blogItem">
