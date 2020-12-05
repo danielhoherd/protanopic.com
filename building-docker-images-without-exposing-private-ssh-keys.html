@@ -136,12 +136,13 @@
 <span class="c">      EOF</span>
 </code></pre></div>
 
-<p>Include this line in your Dockerfile</p>
+<p>Include this content in your Dockerfile</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># syntax = docker/dockerfile:1.0-experimental</span>
+RUN --mount<span class="o">=</span><span class="nv">type</span><span class="o">=</span>ssh,id<span class="o">=</span>github git clone ...
 </code></pre></div>
 
 <p>Then run:</p>
-<div class="highlight"><pre><span></span><code><span class="nv">DOCKER_BUILDKIT</span><span class="o">=</span><span class="m">1</span> docker build --progress<span class="o">=</span>plain --ssh<span class="o">=</span><span class="nv">github</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">ssh_private_key_location</span><span class="si">}</span><span class="s2">&quot;</span> …
+<div class="highlight"><pre><span></span><code><span class="nv">DOCKER_BUILDKIT</span><span class="o">=</span><span class="m">1</span> docker build --ssh<span class="o">=</span><span class="nv">github</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">ssh_private_key_location</span><span class="si">}</span><span class="s2">&quot;</span> …
 </code></pre></div>
 
 <p>This results in a docker image that does not include the private ssh key. I verified this by running <code>docker save</code> and grepping the tar file.</p>
