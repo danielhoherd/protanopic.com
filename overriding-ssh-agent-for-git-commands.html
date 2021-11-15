@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="Daniel Hoherd">
+
+
+        <title>My Protanopic Life - Overriding ssh-agent for git commands</title>
+
+            <link href="https://protanopic.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="My Protanopic Life Full Atom Feed" />
+            <link href="https://protanopic.com/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="My Protanopic Life Categories Atom Feed" />
+        <!-- FAVICON -->
+        <!-- CSS -->
+        <link rel="stylesheet" href="./theme/css/style.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        	<link rel="stylesheet" href="./theme/css/colors/blue.css" id="colors">
+
+        <!-- Code highlight color scheme -->
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+        <meta name="tags" contents="technology" />
+        <meta name="tags" contents="CircleCI" />
+        <meta name="tags" contents="ssh" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Overriding ssh-agent for git commands">
+    <meta property="og:url" content="overriding-ssh-agent-for-git-commands.html">
+    <meta property="og:description" content="When cloning git URLs with ssh, git reads your ssh-agent keys before reading any identities. This can become a problem when you have multiple identities loaded, and not all of them are authorized to access private repositories. This can cause commands like git clone and yarn install to fail when …">
+    <meta property="article:published_time" content="Friday, December 04, 2020">
+    <meta name="twitter:title" content="Overriding ssh-agent for git commands">
+    <meta name="twitter:description" content="When cloning git URLs with ssh, git reads your ssh-agent keys before reading any identities. This can become a problem when you have multiple identities loaded, and not all of them are authorized to access private repositories. This can cause commands like git clone and yarn install to fail when …">
+    <meta name="description" content="When cloning git URLs with ssh, git reads your ssh-agent keys before reading any identities. This can become a problem when you have multiple identities loaded, and not all of them are authorized to access private repositories. This can cause commands like git clone and yarn install to fail when …">
+    <meta name="twitter:image" content="">
+    <meta property="og:image" content="">
+	          <meta property="og:locale" content="">
+			<meta property="og:site_name" content="My Protanopic Life">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="./overriding-ssh-agent-for-git-commands.html">
+	<meta property="og:title" content="Overriding ssh-agent for git commands">
+	<meta property="og:description" content="">
+	   <meta property="og:image" content="./images/guilherme-toti.jpg">
+	<meta property="article:published_time" content="2020-12-04 12:40:07-08:00">
+	</head>
+	<body>
+		<header id="header">
+			<!-- Container -->
+			<div class="container">
+				<!-- Logo / Mobile Menu -->
+				<div class="five columns">
+					<div id="textlogo">
+						<h1><a href="./">My Protanopic Life</a></h1>
+					</div>
+				</div>
+						<!-- Navigation
+				================================================== -->
+				<div class="eleven columns">
+
+					<nav id="navigation" class="menu">
+						<ul id="responsive">
+
+							<li><a href="./">Home</a></li>
+
+
+							        <li><a href="./pages/about.html">About Protanopic</a></li>
+							        <li><a href="./pages/se-asia-2009.html">SE Asia 2009</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- Container / End -->
+		</header>
+		<!-- Header / End -->
+
+		<!-- Breadcrumbs Container-->
+		<div id="content-wrapper">
+			<section id="titlebar">
+				<!-- Container -->
+				<div class="container">
+				<div class="thirteen columns">
+					<nav id="breadcrumbs">
+						<ul>
+							<li>You are here:</li>
+							<li><a href="./">Home</a></li>
+<li><a href="./category/blog.html">blog</a></li>
+<li>Overriding ssh-agent for git commands</li>
+						</ul>
+					</nav>
+				</div>
+				</div>
+				<!-- Container / End -->
+			</section>
+
+			<div class="container">
+        <div class="twelve alt columns">
+<article class="post" style="margin: 0; border: 0;">
+
+	<section class="post-content">
+
+		<header class="meta">
+			<h2><a href="./overriding-ssh-agent-for-git-commands.html">Overriding ssh-agent for git commands</a></h2>
+			<ul>
+				<li>By <a href="./author/daniel-hoherd.html">Daniel Hoherd</a></li>
+				<li>2020-12-04 12:12:07-0800</li>
+			</ul>
+		</header>
+
+		<p>When cloning git URLs with ssh, git reads your ssh-agent keys before reading any identities. This can become a problem when you have multiple identities loaded, and not all of them are authorized to access private repositories. This can cause commands like <code>git clone</code> and <code>yarn install</code> to fail when the unauthorized ssh key is accepted when logging in. This is complicated by the fact that you cannot remove keys from ssh-agent one at a time, you can only reset it entirely, or skip it by setting <code>SSH_AUTH_SOCK=''</code>..</p>
+<p>The best way to work around this is to run <code>export GIT_SSH_COMMAND='ssh -o IdentitiesOnly=yes -i path/to/authorized/id_ed25519'</code>. This will skip all keys that are loaded in the ssh-agent and go straight to the given identity file.</p>
+<p>The issue of having too many loaded identities also shows up in other scenarios, like when using vagrant, which loads keys, and you are connecting to a device that has a low <code>MaxAuthTries</code>, like <a href="https://danielhoherd.com/tech-notes/cradlepoint/">Cradlepoint</a> modems or <a href="https://libreelec.tv">LibreElec</a> devices, especially when you know you will need to enter a password. In these scenarios, you should specify <code>ssh -o PreferredAuthentications=password -o PubkeyAuthentication=no</code>.</p>
+		    <div class="tags">
+		        <p>tags: <a href="./tag/technology.html">technology</a><a href="./tag/circleci.html">CircleCI</a><a href="./tag/ssh.html">ssh</a></p>
+		    </div>
+
+<div class="sharing">
+</div>
+<hr>
+
+	</section>
+	<div class="clearfix"></div>
+
+</article>
+
+        </div>
+
+        <!-- Sidebar -->
+        <div class="four columns">
+
+
+
+
+                
+        </div>
+			</div>
+			<!-- Container / End -->
+		</div>
+		<!-- Content Wrapper / End -->
+
+		<div id="footer-bottom">
+			<!-- Container -->
+			<div class="container">
+				<div class="eight columns">&copy;  || Blog powered by <a href="http://getpelican.com">Pelican</a></div>
+					<div class="eight columns">
+						<ul class="social-icons-footer">
+								<li>
+									<a href="https://www.instagram.com/danielhoherd/" class="tooltip top" title="Instagram">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://flickr.com/photos/warzauwynn/" class="tooltip top" title="Flickr">
+										<i class="fab fa-flickr"></i>
+									</a>
+								</li>
+						</ul>
+					</div>
+			</div>
+			<!-- Container / End -->
+		</div>
+		<!-- Footer Bottom / End -->
+
+	<!-- Javascripts -->
+	<script src="./theme/js/jquery.min.js"></script>
+	</body>
+</html>

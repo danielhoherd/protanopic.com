@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life - technology</title><link href="https://protanopic.com/" rel="alternate"></link><link href="https://protanopic.com/feeds/technology.atom.xml" rel="self"></link><id>https://protanopic.com/</id><updated>2016-11-25T11:37:00-08:00</updated><entry><title>Technological aspects of protanopic.com - 2016 edition</title><link href="https://protanopic.com/technological-aspects-of-protanopic-com-2016-edition.html" rel="alternate"></link><published>2016-11-25T11:37:00-08:00</published><updated>2016-11-25T11:37:00-08:00</updated><author><name>Daniel Hoherd</name></author><id>tag:protanopic.com,2016-11-25:/technological-aspects-of-protanopic-com-2016-edition.html</id><summary type="html">&lt;p&gt;Well, my site has gone through a massive transformation so I thought I'd write
+a bit about it, seeing as how I wrote about it back in 2009 when I was first
+putting it up on Wordpress. Over the years I found myself disabling several of
+the dynamic features like …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, my site has gone through a massive transformation so I thought I'd write
+a bit about it, seeing as how I wrote about it back in 2009 when I was first
+putting it up on Wordpress. Over the years I found myself disabling several of
+the dynamic features like page comments. I was also &lt;a class="reference external" href="https://blog.sucuri.net/2010/07/understanding-and-cleaning-the-pharma-hack-on-wordpress.html"&gt;hacked&lt;/a&gt; with an attack that
+stored the exploit inside of the database. This was an interesting attack
+because my page appeared fine to everybody except google bots. I also found
+that doing mass modifications of posts was difficult using the wordpress UI. To
+work around this I thought I might look into using the Wordpress API, but by
+this time I was pretty much done wanting to write PHP. The web host that I had
+been using for over 10 years had been slowly reducing its features and had
+passed a point where it was worth paying for. So, during a Yelp hackathon in
+November 2016 I migrated all of my old wordpress content to Pelican, a static
+blogging engine written in Python. I moved hosting of my site from my old VPS
+to Github Pages. So far it's been working out great. I've lost the ability to
+write server-side dynamic features, which is something I didn't really care
+about doing, but I've also lost the ability to get hacked through my db, and
+gained the ability to make changes en masse using familiar filesystem level
+tools like sed and whatnot. I can track changes in git, which is also very
+familiar and integrates with many things. All in all I'd say this is a nearly
+perfect win. The only thing I really miss is having a remote shell available
+from not my house and not my work. I'm sure if I ever need one I can easily
+spin up an EC2 or Digital Ocean instance to handle my needs better than my old
+VPS was.&lt;/p&gt;
+</content><category term="technology"></category></entry><entry><title>This is not a phone. It’s a computer that makes phone calls.</title><link href="https://protanopic.com/this-is-not-a-phone.html" rel="alternate"></link><published>2016-11-25T10:31:50-08:00</published><updated>2016-11-25T10:31:50-08:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2016-11-25:/this-is-not-a-phone.html</id><summary type="html">&lt;p&gt;Bruce Schneier, addressing the House of Representatives’ Energy and
+Commerce Committee:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the chairman pointed out, there are now computers in everything.
+But I want to suggest another way of thinking about it in that
+everything is now a computer: This is not a phone. It’s a computer
+that …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Bruce Schneier, addressing the House of Representatives’ Energy and
+Commerce Committee:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the chairman pointed out, there are now computers in everything.
+But I want to suggest another way of thinking about it in that
+everything is now a computer: This is not a phone. It’s a computer
+that makes phone calls. A refrigerator is a computer that keeps
+things cold. ATM machine is a computer with money inside. Your car
+is not a mechanical device with a computer. It’s a computer with
+four wheels and an engine… And this is the Internet of Things, and
+this is what caused the DDoS attack we’re talking about.&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;I come from the world of 'computer' security, and that is now
+'everything' security.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a class="reference external" href="http://www.dailydot.com/layer8/bruce-schneier-internet-of-things/"&gt;Bruce Schneier: 'The internet era of fun and games is over'&lt;/a&gt;.&lt;/p&gt;
+</content><category term="technology"></category><category term="technology"></category><category term="security"></category></entry><entry><title>Technological aspects of protanopic.com - 2009 edition</title><link href="https://protanopic.com/technological-aspects-of-protanopiccom.html" rel="alternate"></link><published>2009-05-14T15:13:00-07:00</published><updated>2009-05-14T15:13:00-07:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2009-05-14:/technological-aspects-of-protanopiccom.html</id><summary type="html">&lt;p&gt;The new site is coming along quickly due to the ease of installation
+provided by Wordpress and the awesome extension and theme communities
+build around it. Open source software is so rad. :)&lt;/p&gt;
+&lt;p&gt;I just finished integrating Facebook into the commenting system (via the
+Disqus.com plugin), which lets you comment …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The new site is coming along quickly due to the ease of installation
+provided by Wordpress and the awesome extension and theme communities
+build around it. Open source software is so rad. :)&lt;/p&gt;
+&lt;p&gt;I just finished integrating Facebook into the commenting system (via the
+Disqus.com plugin), which lets you comment on posts without having to
+make an account or anything silly like that.&lt;/p&gt;
+&lt;p&gt;One thing I have not yet found a solution for is the ability to geotag
+each post. In LiveJournal, there is a &amp;quot;location&amp;quot; text entry box when you
+compose a new post which lets you put any type of location data in
+there, from a street address to a lat/lon waypoint. I can't find
+anything like that for Wordpress though and I'd really like to show a
+map or have a google earth page that shows where I wrote blog entries
+and where I took photos. Does anybody know of something like that?&lt;/p&gt;
+&lt;p&gt;I already have the geotagging thing down with the photos via &lt;a class="reference external" href="http://www.flickr.com/photos/warzauwynn/map"&gt;my Flickr
+map&lt;/a&gt;, it's just a matter
+of integrating it with Wordpress.&lt;/p&gt;
+</content><category term="technology"></category><category term="journal"></category><category term="photography"></category><category term="technology"></category><category term="flickr"></category></entry></feed>

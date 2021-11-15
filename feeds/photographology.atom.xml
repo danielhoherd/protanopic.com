@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>My Protanopic Life - photographology</title><link href="https://protanopic.com/" rel="alternate"></link><link href="https://protanopic.com/feeds/photographology.atom.xml" rel="self"></link><id>https://protanopic.com/</id><updated>2012-04-18T13:57:00-07:00</updated><entry><title>On Lightfield photography and Lytro</title><link href="https://protanopic.com/on-lightfield-photography-and-lytro.html" rel="alternate"></link><published>2012-04-18T13:57:00-07:00</published><updated>2012-04-18T13:57:00-07:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2012-04-18:/on-lightfield-photography-and-lytro.html</id><summary type="html">&lt;p&gt;Benjamin Warde commenting on Lytro:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Viewers will find clicking on photos to refocus them to be fun for
+exactly 17 seconds, after which theyll be bored, not to mention
+annoyed that they're being made to do work the photographer should
+have done already.  As for the folks behind the camera …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Benjamin Warde commenting on Lytro:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Viewers will find clicking on photos to refocus them to be fun for
+exactly 17 seconds, after which theyll be bored, not to mention
+annoyed that they're being made to do work the photographer should
+have done already.  As for the folks behind the camera, placing the
+focus is a creative decision, and in general, photographers aren't
+going to want the end viewer making their creative decisions for
+them.&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;Let me be clear, I'm not skeptical about the value of being able to
+set focus after the fact, I'm only skeptical about the value of
+letting the viewer set focus after the fact.  Letting the
+photographer set focus after the fact is fantastic.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a class="reference external" href="http://www.cameracuriosities.com/2012/04/lytro-its-aliiiiiive.html"&gt;Camera Curiosities: Lytro - Its
+Aliiiiiive!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I agree with this completely. I was really excited about the technology
+behind the Lytro camera, but I had never thought of letting the
+viewer be the one to set focus. I had envisioned it to enable more
+creative control in post-production. I canceled my Lytro order without
+a solid reason why, but this article put into words what I had felt.&lt;/p&gt;
+</content><category term="photographology"></category><category term="technology"></category></entry><entry><title>Every World Press Photo Winner From 1955-2011</title><link href="https://protanopic.com/every-world-press-photo-winner-from-1955-2011.html" rel="alternate"></link><published>2012-02-23T21:03:00-08:00</published><updated>2012-02-23T21:03:00-08:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2012-02-23:/every-world-press-photo-winner-from-1955-2011.html</id><content type="html">&lt;p&gt;There are some *incredible* photos that tell amazing stories
+here: &lt;a class="reference external" href="http://www.buzzfeed.com/mjs538/every-world-press-photo-winner-from-1955-2011"&gt;Every World Press Photo Winner From
+1955-2011&lt;/a&gt;.&lt;/p&gt;
+</content><category term="photographology"></category><category term="photography"></category></entry><entry><title>Exploring HDR processing of a single RAW image</title><link href="https://protanopic.com/exploring-hdr-processing-of-a-single-raw-image.html" rel="alternate"></link><published>2011-10-23T17:53:00-07:00</published><updated>2011-10-23T17:53:00-07:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2011-10-23:/exploring-hdr-processing-of-a-single-raw-image.html</id><summary type="html">&lt;p&gt;You don't have to research HDR much to find the common questions about
+how best to process a single image into an HDR. Some people suggest
+taking the photo and running it straight through Photomatix, letting it
+do all the legwork. Others suggest taking the image into something like
+Lightroom …&lt;/p&gt;</summary><content type="html">&lt;p&gt;You don't have to research HDR much to find the common questions about
+how best to process a single image into an HDR. Some people suggest
+taking the photo and running it straight through Photomatix, letting it
+do all the legwork. Others suggest taking the image into something like
+Lightroom and exporting different versions of the image with the
+exposures set at the different increments to mimic exposure bracketed
+shots.&lt;/p&gt;
+&lt;p&gt;For a long, long time I was in the first camp. The thinking says simply
+that by adjusting the exposure you're not adding anything to the image.
+It suggests that since all of the data is contained in the original
+image, exporting differently exposed versions of the same photo is just
+presenting that data in a different way.  However, I have recently
+discovered that this assumption is wrong. Amazingly, many of my
+assumptions on what was happening with the data in my photographs turned
+out to be wrong, and overly generous. I put too much faith in the
+software, assuming it would do things in the most efficient way because
+that was the ideal way to do it.  Unfortunately, the truth is that
+Photoshop and Photomatix do terrible things to your photographic data,
+and I will show you this fact here.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;A few months ago I was on a boat with my wife, and as is normal in San
+Francisco summers the fog was rolling in past the Golden Gate Bridge.
+There was a lot of movement on the boat so I couldn't take a bracketed
+set. I didn't care though. I assumed Photomatix would let me balance
+these extreme lighting conditions with no sweat. The photos I took on
+that boat were the beginning of my discovery that I was giving
+Photomatix too much credit.&lt;/p&gt;
+&lt;p&gt;Here is an original photo taken on the boat with a Canon T3i at 14bpp
+raw:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4459&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-2/"&gt;&lt;img alt="The untouched file, default settings." class="size-medium wp-image-4459" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-2-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt; The untouched file, default
+settings.[/caption]&lt;/p&gt;
+&lt;p&gt;It's not immediately obvious that the The Golden Gate Bridge is in the
+background, but you can barely see it on the left. This type of
+situation is where I was hoping that Photomatix would solve my exposure
+balance problems. When I looked at the RAW file in Lightroom and dropped
+the exposure down I could see the bridge.  I imported the single image
+into Photomatix Pro 4.1 and did a default tonemap, hoping to bring out
+the details that were lost in the highlights. Here's what Photomatix
+produced:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4458&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40_tonemapped_dng/"&gt;&lt;img alt="Tonemapped from DNG in Photomatix using default settings" class="size-medium wp-image-4458" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40_tonemapped_DNG-300x199.jpg" style="width: 300px; height: 199px;" /&gt;&lt;/a&gt;
+Tonemapped from DNG in Photomatix using default settings[/caption]&lt;/p&gt;
+&lt;p&gt;That's interesting, but it's not exactly helpful.  Specifically, you
+still can't see the bridge and other features that exist in the RAW
+data.  In its place is a smooth, unrealistic, grey sludge.  Clearly
+Photomatix has thrown away some important data that would have been very
+useful.  At this moment I realized that the technique of exporting a
+single RAW image with different exposure settings in fact does allow you
+to create better HDR images in Photomatix because it was obvious to me
+at that point that Photomatix was throwing away useful data when working
+with data from a single RAW file.&lt;/p&gt;
+&lt;p&gt;After doing an hour or so of research on gamut and image formats, trying
+to get a grasp on their differences, I thought &amp;quot;my camera is only 14
+bits per pixel, but PSD can be 16 bits per pixel, so surely it must be
+able to store all the extra information that Photomatix is throwing
+away!&amp;quot;  I converted the DNG to a PSD, imported that into Photomatix, ran
+it through the default tone map settings can came out with this:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4457&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-2_tonemapped_psd/"&gt;&lt;img alt="Tonemapped in Photomatix from PSD using default settings" class="size-medium wp-image-4457" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-2_tonemapped_PSD-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt;
+Tonemapped in Photomatix from PSD using default settings[/caption]&lt;/p&gt;
+&lt;p&gt;Despite the fact that many of the important details are still missing,
+this image is better than what I got while running the DNG file straight
+into Photomatix.  This means that Photomatix is bad at handling what is
+purported to be THE raw format for digital photographs from all
+manufacturers, the Digital Negative.  DNG supports data from more RAW
+images formats and more types of metadata than any other format.  There
+is a &lt;a class="reference external" href="http://www.adobe.com/support/downloads/detail.jsp?ftpID=4924"&gt;free
+converter&lt;/a&gt; with
+a graphical UI and a &lt;a class="reference external" href="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf"&gt;scriptable CLI
+interface&lt;/a&gt;,
+a freely available
+&lt;a class="reference external" href="http://www.adobe.com/support/downloads/dng/dng_sdk.html"&gt;SDK&lt;/a&gt;, and
+it even has the ability to store the original RAW file inside of the DNG
+in case you simply don't trust what it's doing with your RAW data.  It's
+remarkable that even with all of that available, Photomatix still can't
+transpose the 14 bit raw data into a 32 bit radiance file without losing
+significant amounts of data.&lt;/p&gt;
+&lt;p&gt;I also thought it was peculiar is how Photoshop itself was unable to
+show the extra data.  When I converted the DNG into PSD, I had similar
+results as I did with the DNG file.  This led me to do another hour or
+so of research, and I eventually found out what was going on.&lt;/p&gt;
+&lt;p&gt;RAW data is storing information about all of the light that came into
+the camera and hit the sensor.  This data includes parts of the image
+that are outside the perceptive range of your eyes at any, shall we say,
+iris exposure setting.  That is, when the iris of your eye opens and
+closes, it allows you to see brighter or dimmer things, but you cannot
+see the whole range of luminance at once.  Your eyes are limited to a
+medium to low dynamic range, thus the need for HDR and tone-mapping to
+display all of the information.  RAW images store data that is beyond
+the limits of the whitest white and the blackest black that you can see
+in a properly exposed RAW photograph.  Photomatix also has several
+formats in its arsenal that are also supposed to do that, and they very
+well may do so, but that's beyond the scope of this article.  PSD does
+not store this extra data.  Tiff doesn't either.  JPG certainly does
+not.  These image formats are storing color values between white and
+black.  White is the brightest point that your eyes can see and can be
+displayed, and no information past that point is stored.  Black is the
+darkest area your eyes can see, and no information beyond that point is
+stored.  These formats are rasterized.&lt;/p&gt;
+&lt;p&gt;On a side note, this explains why you can't gain anything if you were
+allowed to convert rasterized image like PSD or JPG into a DNG file.
+Since you're not gaining any extra data when you attempt to convert a
+rasterized file to a RAW file, you might as well just use a TIFF or PSD,
+and in fact the DNG Converter will not let you create a DNG from
+anything but a RAW file format.&lt;/p&gt;
+&lt;p&gt;What's interesting to me is that professional photo editing resources
+toss this rather important detail out all the time and put PSD and DNG
+on the same level.  Matt Kloskowski from Adobe constantly gets hassled
+at &lt;a class="reference external" href="http://lightroomkillertips.com/"&gt;Lightroom Killer Tips&lt;/a&gt; for going
+back and forth between Lightroom, an app with a purely RAW format based
+workflow, and Photoshop, which works with rasterized data which
+truncates lots of important information from both extremes of the
+radiance spectrum.  Professionals like Matt are, in essence, teaching us
+techniques that are severely sub-optimal and disregarding this data loss
+issue entirely.&lt;/p&gt;
+&lt;p&gt;Moreover, Professional applications like Adobe Photoshop and Photomatix
+Pro are also silently truncating important data at both ends of the
+radiance spectrum when they are supposed to be doing exactly the
+opposite.  Photomatix has one primary purpose, to compress images that
+have a wide radiance down into images of narrow radiance so our eyes can
+see the features beyond our visual perception.  Nobody who uses this app
+expects it to simply throw away the parts of the image that can't be
+seen.  If we needed that, we'd shoot in JPG or TIFF and use
+shadow/highlight in Photoshop.&lt;/p&gt;
+&lt;p&gt;So, after all of this thinking and researching, I did a final
+experiment. I used Lightroom to create three versions of the same image
+and merged them in Photomatix Pro as if I had taken an exposure
+bracketed set.  The three images are -4EV, 0EV, +4EV. Only the exposure
+was changed, and the watermark wasn't included in the test.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4460&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-1/"&gt;&lt;img alt="Adjusted in LR to -4EV" class="size-medium wp-image-4460" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-1-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt; Adjusted in LR to -4EV[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4459&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-2/"&gt;&lt;img alt="Default settings in LR, 0EV" class="size-medium wp-image-4459" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-2-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt; Default settings in LR,
+0EV[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4461&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-3/"&gt;&lt;img alt="Adjusted in LR to +4EV" class="size-medium wp-image-4461" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-3-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt; Adjusted in LR to +4EV[/caption]&lt;/p&gt;
+&lt;p&gt;I merged these in Photomatix and used the same default tone-mapping
+settings as the previous photos.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_4456&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;a class="reference external image-reference" href="http://protanoptic.com/2011/10/23/exploring-hdr-processing-of-a-single-raw-image/20110702-17-15-40-1_2_3_fused/"&gt;&lt;img alt="Tonemapped from PSD's at -4EV, 0EV and +4EV in Photomatix using default settings" class="size-medium wp-image-4456" src="http://protanoptic.com/wp-content/uploads/2011/10/20110702-17-15-40-1_2_3_fused-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt; Tonemapped from PSD's at -4EV, 0EV and +4EV in
+Photomatix using default settings[/caption]&lt;/p&gt;
+&lt;p&gt;In this final set you can see the extent of the information that was
+being thrown out by Photoshop and Photomatix.  Specifically, the entire
+Golden Gate Bridge was captured by the camera, but was invisible to both
+applications using their standard import methods.&lt;/p&gt;
+&lt;p&gt;And with that, I am now on the side of the people who recommend
+exporting exposure bracketed versions of a single exposure when using
+Photomatix to tonemap a single image. Science, logic and truth prevail,
+revealing to everybody the Golden Gate Bridge.&lt;/p&gt;
+</content><category term="photographology"></category><category term="journal"></category><category term="photography"></category></entry><entry><title>Rethinking Photography in 2011</title><link href="https://protanopic.com/rethinking-photography-in-2011.html" rel="alternate"></link><published>2011-04-26T16:24:00-07:00</published><updated>2011-04-26T16:24:00-07:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2011-04-26:/rethinking-photography-in-2011.html</id><summary type="html">&lt;p&gt;Yesterday some mixed feelings and vague thoughts I've been having for a
+long time culminated in the decision to sell all of my photography gear
+and start over from scratch.&lt;/p&gt;
+&lt;p&gt;I've been a hobbyist photographer for a long time, I got my first camera
+when I was about 7, but …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday some mixed feelings and vague thoughts I've been having for a
+long time culminated in the decision to sell all of my photography gear
+and start over from scratch.&lt;/p&gt;
+&lt;p&gt;I've been a hobbyist photographer for a long time, I got my first camera
+when I was about 7, but in 2009 I quit my tech job and began putting
+more focus on doing photography as a career.  What I found out about
+myself over the course of many months is that I'm not one of those
+people who likes to go into business for himself, and I wouldn't be very
+good at it. I'm too altruistic and have such a relative sense of worth
+that it's very hard for me to make money by selling art. Plus I hate
+selling, greatness should sell itself.&lt;/p&gt;
+&lt;p&gt;Aside from not being good at business, I found it hard to find people to
+work with. It seems like so many people talk and dream but few people
+actually produce. This was incredibly frustrating to me because I wanted
+to produce night and day, and had had that chance when living at 4211
+with a gaggle of fashionistas living next door, the beach a block away,
+Rob always dragging me to punk rock shows, the rise of flashmob scene,
+and newbie exploration of the San Francisco festivals. Then after that I
+went off to travel and found unlimited things to photograph in SE Asia,
+and came back to America to focus on professional and fashion
+photography. However, the lack of interested parties and paying clients
+led me to retreat to the more lucrative technology sector, and the
+frequency of photo shoots dwindled.&lt;/p&gt;
+&lt;p&gt;All that while, the landscape of professional photography was changing.
+The number of decent to good cameras in the hands of average consumers
+skyrocketed. The iPhone 4 and its awesome camera was released, DSLR
+prices dropped while sensor technology got better. Micro 4/3 cameras
+took off. Cameras are now everywhere. This meant the bar to entering
+photography was lower, and in turn many people showed that they had a
+natural talent for photography. These people were not professionals but
+they were posting amazing quality work online, then giving it away for
+free to companies who would've had to pay just a few years earlier.
+Companies don't need to pay for photography anymore, they just browse
+the creative commons area of Flickr, ask for commercial rights and get
+it. When they do pay, it's a fraction of what they would've had to pay
+before.&lt;/p&gt;
+&lt;p&gt;On the flip side, I see people with charisma and capital but little
+talent for photography out there shooting mediocre work and blogging
+about it and posting in every Flickr pool that requires comments and
+fav's, gathering a following of praising people who don't know great
+artistic photography from a computer animated dog food commercial.&lt;/p&gt;
+&lt;p&gt;Meanwhile I was carrying around a bunch of heavy, expensive,
+professional, photography gear doing my hobby thing, getting a few paid
+gigs here and there on the side. I was halfway in my professional
+photography mindset and halfway in my hobby mindset; living two lives. I
+feel like this has been a big distraction to my tech profession and my
+personal life.&lt;/p&gt;
+&lt;p&gt;Then there is technology advances. Cameras are changing. They have been
+mostly the same for a long time, but now we have iPhone apps that create
+panoramas inside of a phone where previously you'd have to take a shift
+lens or a land camera out to do architectural work. The cameras inside
+these phones suck compared to SLRs, but things like in-cam HDR
+generation and auto-stitching apps give them higher level skills. Of
+course, they aren't approaching H4D level, but there's no doubt that the
+camera on a phone can produce images that are stunning. After all, the
+best camera is the one you have on you, and now almost everybody has
+one.&lt;/p&gt;
+&lt;p&gt;But a lot of it boils down to me taking photography too seriously. I
+have a serious hobby, but it's not a profession. Hobbies are supposed to
+be fun and enriching. With the failure of my attempted photography
+career, I think it's time to start over, so that's what I'm doing.&lt;/p&gt;
+</content><category term="photographology"></category><category term="life"></category><category term="photography"></category><category term="technology"></category></entry><entry><title>Quick flickr tip about shutter actuation count</title><link href="https://protanopic.com/quick-flickr-tip-about-shutter-actuation-count.html" rel="alternate"></link><published>2010-11-14T20:16:00-08:00</published><updated>2010-11-14T20:16:00-08:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2010-11-14:/quick-flickr-tip-about-shutter-actuation-count.html</id><summary type="html">&lt;p&gt;If you want to see how many photos your camera has taken, take a photo
+and upload it to Flickr, then look at the EXIF data.  The &amp;quot;Image Number&amp;quot;
+field is the number of shutter actuations of the camera body that took
+the photo.  This is a useful piece of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you want to see how many photos your camera has taken, take a photo
+and upload it to Flickr, then look at the EXIF data.  The &amp;quot;Image Number&amp;quot;
+field is the number of shutter actuations of the camera body that took
+the photo.  This is a useful piece of information when reselling a
+selling used gear, and generally neat to know if you take a lot of
+photos.  I'm adding a graph of actuations vs time to my to-do list for
+&lt;a class="reference external" href="http://www.flixplor.com"&gt;flixplor.com&lt;/a&gt;.&lt;/p&gt;
+</content><category term="photographology"></category><category term="journal"></category><category term="flickr"></category></entry><entry><title>Stereoscopy</title><link href="https://protanopic.com/stereoscopy.html" rel="alternate"></link><published>2009-08-30T13:25:00-07:00</published><updated>2009-08-30T13:25:00-07:00</updated><author><name>Daniel</name></author><id>tag:protanopic.com,2009-08-30:/stereoscopy.html</id><summary type="html">&lt;address&gt;&lt;p&gt;3D photography is something I've been in and out of for a while.&lt;/p&gt;
+&lt;/address&gt;&lt;div class="section" id="glossary"&gt;
+&lt;h2&gt;Glossary&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;1/30th rule - The separation between the perspective of the two
+images should be 1/30th the distance to the nearest subject.&lt;/li&gt;
+&lt;li&gt;Cha-cha - A method of taking 3d photos where you use one camera to
+take …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;address&gt;&lt;p&gt;3D photography is something I've been in and out of for a while.&lt;/p&gt;
+&lt;/address&gt;&lt;div class="section" id="glossary"&gt;
+&lt;h2&gt;Glossary&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;1/30th rule - The separation between the perspective of the two
+images should be 1/30th the distance to the nearest subject.&lt;/li&gt;
+&lt;li&gt;Cha-cha - A method of taking 3d photos where you use one camera to
+take two photographs, one for the left and one for the right, by
+moving the camera to each location.  This can be done with a slide
+bar or by just shifting your body.&lt;/li&gt;
+&lt;li&gt;Cross view - A stereograph where the left eye is on the right of the
+image and the right eye is on the left of the image. Most people find
+these photos easier to view, especially in larger sizes.&lt;/li&gt;
+&lt;li&gt;Dual Cameras - The use of two cameras, usually identical hardware, to
+capture a both images of a stereograph at one time.  A synchronous
+trigger such as hardware mods or an IR remote are often used.&lt;/li&gt;
+&lt;li&gt;Parallel view - A stereograph where the left eye and right eye are
+presented as the world is seen naturally.  Your eyes look parallel to
+each other to see the 3d image.&lt;/li&gt;
+&lt;li&gt;Slide bar - A tool used for increased precision when taking cha-cha
+stereographs.&lt;/li&gt;
+&lt;li&gt;Stereo Baseline - The horizontal distance between the two images
+taken, basically the distance between your eyes.&lt;/li&gt;
+&lt;li&gt;Stereo Camera - A camera made for taking stereo photographs, such as
+the &lt;a class="reference external" href="http://www.fujifilm.com/products/3d/camera/finepix_real3dw1/"&gt;Fujifilm FinePix REAL 3D
+W1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="links"&gt;
+&lt;h2&gt;Links&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.3dphoto.net/forum/"&gt;3dphoto.net/forum&lt;/a&gt; - A lot of
+great information from DIYers can be found in the forums here.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ledametrix.com/index.html"&gt;ledametrix.com&lt;/a&gt; - Lots of
+good information, examples, and information on different stereoscopic
+still photography gear.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Stereoscopy"&gt;Wikipedia -
+Stereoscopy&lt;/a&gt; covers a
+lot of the aspects of stereoscopy.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.stereoscopy.com/jasper/slide-bars.html"&gt;Jasper slide
+bars&lt;/a&gt; - These
+appear to be the best slide bars, though I've never used them.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.f295.org/Pinholeforum/forum/Blah.pl?m-1166543630/"&gt;f29 - wo0den
+slidebar&lt;/a&gt;
+is a cheap, simple DIY slidebar that looks very promising.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="loreo-3d-lens-in-a-cap"&gt;
+&lt;h2&gt;&lt;strong&gt;Loreo 3d Lens in a Cap&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I bought a &lt;a class="reference external" href="http://www.loreo.com/pages/products/loreo_3dcap.html"&gt;Loreo 3d Lens in a
+Cap&lt;/a&gt; with the
+expectation that it would be a fun little toy.  Indeed it is, but it was
+remarkably difficult to use with much success.  It failed with the two
+feature incompatibilities of being zoomed in too tight for its stereo
+base line and too limited in its near focus.&lt;/p&gt;
+&lt;p&gt;The perspective of the lens makes it difficult to photograph large
+things without standing very far away from them.  Coupled with the
+narrow baseline and the 1/30th rule this defeats the purpose of shooting
+in stereo.  So, this lens doesn't work well for shooting large objects.&lt;/p&gt;
+&lt;p&gt;The near focus of this lens is limited to something greater than about a
+meter.  This means you can't photograph things up close, there is no
+macro ability.  you can photograph something like a basketball and have
+good composition, but not something like an action figure because there
+would be a lot of extra extra space around the subject.  Since you can't
+crop the image easily it makes for compositionally poor images for small
+objects.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external image-reference" href="http://www.flickr.com/photos/warzauwynn/3871828236/"&gt;&lt;img alt="Golden Blake Bridge" class="align-right" src="https://farm3.staticflickr.com/2578/3871828236_a8d91b9ff5_n.jpg" style="width: 320px; height: 213px;" /&gt;&lt;/a&gt;The result is basically a long portrait lens with
+an ƒ/11 aperture.  ƒ/11 is not the best aperture for portraits with a
+lot of bokeh, and if you want to have a secondary subject in the
+distance you still have have to stand a long way away from it.  For
+instance, this photo of Blake was taken many miles form the Golden Gate
+Bridge and you still can't see both sides of it.&lt;/p&gt;
+&lt;p&gt;There's a rumor that Loreo is working on a lens with a wider focal
+length.  This would probably solve both of the problems listed above,
+and would certainly solve a least the narrow perspective.&lt;/p&gt;
+&lt;p&gt;Honestly I wouldn't recommend buying the Loreo because of these
+limitations.  If you happen to find one for cheap or want to borrow one
+that could be fun, but otherwise I'd seek out other methods for
+stereoscopy like the simple cha-cha method or picking up two cheap
+pocket cams or webcams.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="photographology"></category></entry></feed>
